@@ -1,2 +1,2 @@
-# TriyanshiTechnologuProjects
-TriyanshiTechnologuProjects
+# TriyanshiTechnologyProjects
+TriyanshiTechnologyProjects
