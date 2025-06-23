@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Media Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .media-gallery {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .media-section {
+      margin-bottom: 40px;
+    }
+
+    audio,
+    video {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      margin: 15px auto;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      background-color: #000;
+    }
+
+    .caption-note {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="media-gallery">
+    <h1>Media Gallery</h1>
+
+    <!-- Audio Section -->
+    <div class="media-section">
+      <h2>🎵 Audio Sample</h2>
+      <audio controls>
+         <source src="D:\TRIYANSHI TECHNOLOGY\Task4_EmbedAudioAndVideo\TheWheels.mp3" type="audio/mpeg">
+       <track src="captions.vtt" kind="subtitles" srclang="en" label="English" default>
+        Your browser does not support the audio element.
+      </audio>
+      <div class="caption-note">Now playing: Sample audio</div>
+    </div>
+
+    <!-- Video Section -->
+    <div class="media-section">
+      <h2>🎬 Video Sample</h2>
+      <video controls>
+         <source src="D:\TRIYANSHI TECHNOLOGY\Task4_EmbedAudioAndVideo\vid.mp4" type="video/mp4">
+       
+        
+        Your browser does not support the video tag.
+      </video>
+      <div class="caption-note">Subtitles available in English</div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

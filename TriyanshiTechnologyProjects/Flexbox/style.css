@@ -1,0 +1,46 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div{
+    background-color: beige;
+    margin: 30px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+/*
+display::flex;
+ flex-direction: row;
+ justify-content:space-around;   work row vise
+  flex-wrap: wrap;
+  align-items:flex-end;  work vertically as per parent give .containe rheight 500px
+  align content
+*/
+.flex-container1
+{
+    border: 1px solid   ;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end;   */
+  /*  justify-content:space-around; */
+    align-items:center;
+    flex-wrap: wrap;
+  /*  align-content:center ;  */
+}
+.flex-container1  > div{
+  /*   background-color: rgb(252, 210, 141);  */
+    margin: 40px;
+    
+   /* padding: 20px; */   
+}
+.item{
+    font-size: 2.5rem;
+    border: 1px dashed red;
+
+}
+.item-1{
+    background-color: aqua;
+}
